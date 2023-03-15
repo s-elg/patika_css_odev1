@@ -1,0 +1,69 @@
+body{
+    background-color: #fcfefe;
+    margin: 25px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: #c9356c;
+}
+
+h2{
+    text-align: center;
+    color: #ff347f;
+}
+
+h3{
+    text-align: center;
+    color: #f48db4;
+    font-size: larger;
+}
+
+
+p{
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.menu{ 
+    display: flex; 
+    justify-content: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li::after{
+    display:block; 
+    content:"";
+    clear:both;
+} 
+
+
+.menu li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.urun{
+    text-align: center;
+}
+
+.urun ul{
+    display: inline-block;
+    text-align: left;
+}

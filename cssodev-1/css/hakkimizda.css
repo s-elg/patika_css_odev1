@@ -1,0 +1,52 @@
+body{
+    background-color: #fcfefe;
+    margin: 25px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: #c9356c;
+}
+
+h2{
+    color: #ff347f;
+    margin: 15px;
+}
+
+p{
+    margin: 15px;
+}
+
+.menu{ 
+    display: flex; 
+    justify-content: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li::after{
+    display:block; 
+    content:"";
+    clear:both;
+} 
+
+
+.menu li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
